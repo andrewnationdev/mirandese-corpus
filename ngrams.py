@@ -26,7 +26,7 @@ def generate_sentence(num=7):
 
     return " ".join(words)
 
-with open("corpus-original.txt", "r", encoding="utf-8") as corpus:
+with open("corpus-limpo.txt", "r", encoding="utf-8") as corpus:
     text = corpus.read()
 
 process_corpus(text)
